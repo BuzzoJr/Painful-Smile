@@ -14433,8 +14433,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1799109349}
-        m_TargetAssemblyTypeName: SessionEnd, Assembly-CSharp
+      - m_Target: {fileID: 1799109350}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
         m_MethodName: MainMenu
         m_Mode: 1
         m_Arguments:
@@ -14792,9 +14792,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1799109349}
-        m_TargetAssemblyTypeName: SessionEnd, Assembly-CSharp
-        m_MethodName: PlayAgain
+      - m_Target: {fileID: 1799109350}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16006,6 +16006,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1799109348}
   - component: {fileID: 1799109349}
+  - component: {fileID: 1799109350}
   m_Layer: 5
   m_Name: SessionEnd
   m_TagString: Untagged
@@ -16052,6 +16053,18 @@ MonoBehaviour:
   endScore: {fileID: 646633119}
   score: {fileID: 112162138}
   countdown: {fileID: 1825155927}
+--- !u!114 &1799109350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799109347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19530f88cedaf8845adb802bbc548c4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1825155927
 GameObject:
   m_ObjectHideFlags: 0

@@ -55,14 +55,4 @@ public class SessionEnd : MonoBehaviour
             endText.text = "Game Over";
         }
     }
-
-    public void PlayAgain()
-    {
-        SceneManager.LoadScene(1);
-    }
-
-    public void MainMenu()
-    {
-        SceneManager.LoadScene(0);
-    }
 }

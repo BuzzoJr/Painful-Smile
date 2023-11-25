@@ -56,10 +56,4 @@ public class GameManager : MonoBehaviour
         Win,
         Lose,
     }
-
-    public void StartGame()
-    {
-        UpdateGameState(GameState.Playing);
-        SceneManager.LoadScene(1);
-    }
 }

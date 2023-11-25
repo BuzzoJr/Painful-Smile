@@ -123,17 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &13263215 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2112512512611210553, guid: 80e91a0f306723541a33370a39617706, type: 3}
-  m_PrefabInstance: {fileID: 864378516}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b33fee0884e08a4a869bd0e98d3d095, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &49327057
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,6 +345,7 @@ GameObject:
   - component: {fileID: 94300571}
   - component: {fileID: 94300570}
   - component: {fileID: 94300569}
+  - component: {fileID: 94300573}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -447,6 +437,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &94300573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94300568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19530f88cedaf8845adb802bbc548c4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &221911621
 GameObject:
   m_ObjectHideFlags: 0
@@ -4531,9 +4533,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 13263215}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: StartGame
+      - m_Target: {fileID: 94300573}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
