@@ -8,6 +8,7 @@ public class SceneController : MonoBehaviour
     public void Play()
     {
         GameManager.Instance.UpdateGameState(GameManager.GameState.Playing);
+        PlayerPrefs.SetInt("Score", 0);
         SceneManager.LoadScene(1);
     }
 

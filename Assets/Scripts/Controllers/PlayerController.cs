@@ -54,6 +54,7 @@ public class PlayerController : MonoBehaviour
     }
     void Start()
     {
+        score = 0;
         boatSound = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody2D>();
     }
