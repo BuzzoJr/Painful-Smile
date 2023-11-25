@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd8c3dfa7fc61ee40a4d629f5932566e, type: 3}
+  m_Name: EnemyChaserSO
+  m_EditorClassIdentifier: 
+  health: 100
+  rewardPoints: 1
+  movementSpeed: 0.5
+  damage: 30
+  projectileCooldown: 0
+  projectileSpeed: 0
+  stoppingDistance: 0
+  isChaser: 1
+  enemyPrefab: {fileID: 2437743297591630407, guid: be0ca32d8d33b6d459391cefea0dfaf5, type: 3}
+  spriteList:
+  - {fileID: 21300000, guid: bb5de0cb107d3c740a57758787087240, type: 3}
+  - {fileID: 21300000, guid: bdebb0e78ffffd44ab0e03f1fb1fd0be, type: 3}
+  - {fileID: 21300000, guid: 6fb1adc2b425c19438eb03b69ea2274a, type: 3}
+  - {fileID: 21300000, guid: d47b05e76496349489c834a16b317205, type: 3}
